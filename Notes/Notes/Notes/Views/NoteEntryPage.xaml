@@ -2,18 +2,38 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Notes.Views.NoteEntryPage"
-             Title="Note Entry">
+             Title="Password">
+    <ContentPage.Resources>
+        <!-- Implicit styles -->
+        <Style TargetType="{x:Type Editor}">
+            <Setter Property="BackgroundColor"
+                    Value="{StaticResource AppBackgroundColor}" />
+        </Style>
+    </ContentPage.Resources>
+
     <!-- Layout children vertically -->
-    <StackLayout Margin="20">
-        <Editor Placeholder="Enter your note"
-                Text="{Binding Text}"
-                HeightRequest="100" />
-        <!-- Layout children in two columns -->
+    <StackLayout Margin="{StaticResource PageMargin}">
+        <Editor Placeholder="Nome servizio"
+                Text="{Binding ServiceName}"
+                HeightRequest="50" />
+        <Editor Placeholder="Username"
+                Text="{Binding Username}"
+                HeightRequest="50" />
+        <Editor x:Name="passwordSection"
+                Placeholder="Password"
+                Text="{Binding Password}"
+                HeightRequest="50" 
+                Focused="OnFocus"
+                Unfocused="OnLostFocus"/>
+        <Editor Placeholder="URL"
+                Text="{Binding URL}"
+                HeightRequest="50" />
         <Grid ColumnDefinitions="*,*">
-            <Button Text="Save"
+            <!-- Layout children in two columns -->
+            <Button Text="Salva"
                     Clicked="OnSaveButtonClicked" />
             <Button Grid.Column="1"
-                    Text="Delete"
+                    Text="Elimina"
                     Clicked="OnDeleteButtonClicked"/>
         </Grid>
     </StackLayout>

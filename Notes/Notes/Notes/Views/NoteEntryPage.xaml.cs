@@ -8,6 +8,7 @@ namespace Notes.Views
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
     public partial class NoteEntryPage : ContentPage
     {
+        string passwordOriginale;
         public string ItemId
         {
             set
@@ -32,10 +33,11 @@ namespace Notes.Views
                 // Retrieve the note and set it as the BindingContext of the page.
                 Note note = await App.Database.GetNoteAsync(id);
                 BindingContext = note;
+                passwordOriginale = passwordSection.Text;
             }
             catch (Exception)
             {
-                Console.WriteLine("Failed to load note.");
+                Console.WriteLine("Errore nel caricamento nota.");
             }
         }
 
@@ -43,8 +45,9 @@ namespace Notes.Views
         {
             var note = (Note)BindingContext;
             note.Date = DateTime.UtcNow;
-            if (!string.IsNullOrWhiteSpace(note.Text))
+            if (!string.IsNullOrWhiteSpace(note.ServiceName))
             {
+                passwordSection.Text = passwordOriginale;
                 await App.Database.SaveNoteAsync(note);
             }
 
@@ -56,9 +59,19 @@ namespace Notes.Views
         {
             var note = (Note)BindingContext;
             await App.Database.DeleteNoteAsync(note);
-
+            
             // Navigate backwards
             await Shell.Current.GoToAsync("..");
+        }
+
+        async void OnLostFocus(object sender, EventArgs e)
+        {
+            passwordOriginale = passwordSection.Text;
+            passwordSection.Text = "***********";
+        }
+        async void OnFocus(object sender, EventArgs e)
+        {
+            passwordSection.Text = passwordOriginale;
         }
     }
 }

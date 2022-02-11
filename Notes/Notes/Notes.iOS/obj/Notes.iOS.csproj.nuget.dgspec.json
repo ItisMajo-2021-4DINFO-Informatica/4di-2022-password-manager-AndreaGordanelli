@@ -1,39 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj": {}
+    "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes.iOS/Notes.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj": {
+    "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes.iOS/Notes.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
+        "projectUniqueName": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes.iOS/Notes.iOS.csproj",
         "projectName": "Notes.iOS",
-        "projectPath": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes.iOS\\Notes.iOS.csproj",
-        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes.iOS\\obj\\",
+        "projectPath": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes.iOS/Notes.iOS.csproj",
+        "packagesPath": "/Users/andreagordanelli/.nuget/packages/",
+        "outputPath": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes.iOS/obj/",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/andreagordanelli/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "xamarinios10"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes\\Notes.csproj": {
-                "projectPath": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes\\Notes.csproj"
+              "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/Notes.csproj": {
+                "projectPath": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/Notes.csproj"
               }
             }
           }
@@ -49,6 +43,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
             }
           }
         }
@@ -65,29 +63,22 @@
         }
       }
     },
-    "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes\\Notes.csproj": {
+    "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/Notes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes\\Notes.csproj",
+        "projectUniqueName": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/Notes.csproj",
         "projectName": "Notes",
-        "projectPath": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes\\Notes.csproj",
-        "packagesPath": "C:\\Users\\Utente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Utente\\Downloads\\Notes\\Notes\\Notes\\Notes\\obj\\",
+        "projectPath": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/Notes.csproj",
+        "packagesPath": "/Users/andreagordanelli/.nuget/packages/",
+        "outputPath": "/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Utente\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/andreagordanelli/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -135,7 +126,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }

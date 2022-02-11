@@ -1,0 +1,50 @@
+﻿<Properties StartupConfiguration="{FF74F868-A932-4AA9-B70D-071B8F93B3D5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Notes/Notes/Views/AboutPage.xaml">
+    <Files>
+      <File FileName="Notes/Notes/Views/AboutPage.xaml" Line="14" Column="34" />
+      <File FileName="Notes/Notes/App.xaml" Line="23" Column="12" />
+      <File FileName="Notes/Notes/Views/AboutPage.xaml.cs" Line="17" Column="67" />
+      <File FileName="Notes/Notes/Views/NoteEntryPage.xaml" Line="18" Column="38" />
+      <File FileName="Notes/Notes/Views/NoteEntryPage.xaml.cs" Line="61" Column="54" />
+      <File FileName="Notes/Notes/Views/NotesPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Notes/Notes/Views/NotesPage.xaml" Line="1" Column="1" />
+      <File FileName="Notes/Notes/App.xaml.cs" Line="1" Column="1" />
+      <File FileName="Notes/Notes/Data/NoteDatabase.cs" Line="1" Column="1" />
+      <File FileName="Notes/Notes/Models/Note.cs" Line="1" Column="1" />
+      <File FileName="Notes/Notes.Android/MainActivity.cs" Line="16" Column="1" />
+      <File FileName="Notes/Notes.Android/Assets/AboutAssets.txt" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Notes" expanded="True">
+            <Node name="Notes" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AboutPage.xaml" expanded="True" selected="True" />
+                <Node name="NoteEntryPage.xaml" expanded="True" />
+                <Node name="NotesPage.xaml" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Notes.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+                <Node name="mipmap-hdpi" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Notes.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.ItemProperties.Notes.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.8C07BCAB-7735-47A9-A215-A0B329AEC5E9" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/andreagordanelli/Desktop/4di-2022-password-manager-MattiaZanchetta-main/Notes/Notes/Notes/Models/Note.cs" relfile="Notes/Notes/Models/Note.cs" line="12" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
